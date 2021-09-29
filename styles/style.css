@@ -1,0 +1,373 @@
+*{
+    box-sizing: border-box;
+  }
+  
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.toplink{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #00DFB7;
+    padding: 1em;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/*nav*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: black;
+    margin: 0.5em;
+}
+
+nav img {
+    width: 4em;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li:last-of-type {
+    background-color: red;
+    color: white;
+    border: red 1px ;
+    padding: .75em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+nav button {
+    position: absolute;
+    top: 4.25em;
+    right: 5rem;
+    background-color: red;
+    color: white;
+    border: red 1px ;
+    padding: 1.5em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+@media (max-width: 525px) {
+    nav button {
+        position: absolute;
+        top: 5.25em;
+    }
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.wrapper {
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container {
+    position: absolute;
+    top: 5em;
+    right: 1rem;
+    height: 25px;
+    width: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer; 
+}
+
+.menulogo {
+    height: 3px;
+    width: 30px;
+    background-color: red;
+}
+
+@media (min-width: 1200px) {
+    nav button {
+        display: none;
+    }
+
+    section:nth-of-type(2) {
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .wrapper {
+        display: flex;
+        border-bottom: solid 1px lightgray;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li a {
+        padding: .75rem 1rem;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    nav li:last-of-type {
+        display: none;
+    }
+    
+
+}
+/*nav end*/
+
+.welkom {
+    padding: 15vh 0;
+    background-image: url(images/Homepage_header_Yoga__1_.webp) ;
+    background-repeat: no-repeat;
+}
+
+section:nth-of-type(1) div {
+    margin: 1em;
+}
+
+section:nth-of-type(1) h2 {
+    margin: .6em;
+    font-size: 2em;
+    font-family: sans-serif;
+    color: white;
+}
+
+section:nth-of-type(1) button {
+    height: 4em;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 78, 78);
+    margin-left: 1em;
+    color: white;
+}
+
+input[type="search"] {
+    border: none;
+    border-radius: 5px;
+    width: 20em;
+    height: 4em;
+}
+
+section:nth-of-type(1) a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    border-bottom: solid black 2px;
+    border-radius: 5px;
+    margin: auto;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 3em;
+    border: solid lightgray 1px;
+    box-shadow: -1px 0px 7px 0px #000000;
+}
+
+section:nth-of-type(2) h3 {
+    margin: 1.5em;
+}
+
+section:nth-of-type(2) p {
+    margin: 1.5em;
+    margin-bottom: 4em;
+}
+
+section:nth-of-type(2) button {
+    background-color: red;
+    color: white;
+    border: red 1px ;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1.5em;
+    margin-left: 1.9em;
+    margin-right: 9em;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+span:nth-of-type(1) section {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    border-bottom: solid black 2px;
+    border-radius: 5px;
+    box-shadow: -1px 0px 7px 0px #000000;
+}
+
+span:nth-of-type(1) button {
+    background-color: red;
+    color: white;
+    border: red 1px ;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5em;
+    margin-right: 1.9em;
+    margin-left: 9em;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+section:nth-of-type(3) h3{
+    font-family: sans-serif;
+    margin: 0.7em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+section:nth-of-type(3) p {
+    margin-top: 0;
+    font-family: sans-serif;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+section:nth-of-type(3) h4 {
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+section:nth-of-type(3) a {
+    color: black;
+}
+
+section img {
+    border-radius: 5px;
+}
+
+/*carousel*/
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    gap: 1em;
+    margin: 1em;
+}
+
+.carousel-slide img {
+    border-radius: 5px;
+    width: 315px;
+}
+
+section:nth-of-type(5) {
+    margin: 1em;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.prevBtn {
+    padding: 1em;
+    border-radius: 50%;
+    border: solid 1px lightgrey;
+    color: red;
+}
+
+.nextBtn {
+    padding: 1em;
+    border-radius: 50%;
+    border: solid 1px lightgrey;
+    color: red;
+}
+/*carousel end*/
+
+section:nth-of-type(6) button {
+    background-color: red;
+    color: white;
+    border: red 1px ;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+section:nth-of-type(7) {
+    background-color: black;
+}
+
+section:nth-of-type(7) h3 {
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+section:nth-of-type(7) p {
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-right: 4em;
+    margin-left: 4em;
+}
+
+
+section:nth-of-type(7) button {
+    background-color: red;
+    color: white;
+    border: red 1px ;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    justify-content: center;
+}
