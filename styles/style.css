@@ -5,6 +5,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .toplink{
@@ -14,7 +15,6 @@ body{
     background-color: #00DFB7;
     padding: 1em;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1em;
 }
@@ -49,7 +49,6 @@ nav li:last-of-type {
     border-radius: 5px;
     font-weight: bold;
     font-size: 0.9em;
-    font-family: sans-serif;
 }
 
 nav ul a {
@@ -68,7 +67,6 @@ nav button {
     border-radius: 5px;
     font-weight: bold;
     font-size: 0.9em;
-    font-family: sans-serif;
 }
 
 @media (max-width: 525px) {
@@ -128,11 +126,11 @@ nav a:hover {
 @media (max-width: 1200px) {
     .wrapper {
         display: flex;
-        border-bottom: solid 1px lightgray;
     }
 
     nav ul {
         display: none;
+        border-top: solid 1px lightgray;
     }
 
     nav {
@@ -161,6 +159,7 @@ nav a:hover {
 }
 /*nav end*/
 
+/*section 1 homepage*/
 .welkom {
     padding: 10vh 0;
     background-image: url(../images/Homepage_header_Yoga__1_.png);
@@ -168,18 +167,17 @@ nav a:hover {
     background-size: 500px 320px;
 }
 
-section:nth-of-type(1) div {
+.homepagemain section:nth-of-type(1) div {
     margin: 1em;
 }
 
-section:nth-of-type(1) h2 {
+.homepagemain section:nth-of-type(1) h2 {
     margin: .6em;
     font-size: 2em;
-    font-family: sans-serif;
     color: white;
 }
 
-section:nth-of-type(1) button {
+.homepagemain section:nth-of-type(1) button {
     height: 4em;
     border-radius: 5px;
     border: none;
@@ -195,14 +193,16 @@ input[type="search"] {
     height: 4em;
 }
 
-main section:nth-of-type(1) a {
+.homepagemain section:nth-of-type(1) a {
     color: white;
     text-decoration: none;
     padding: 1em;
     font-size: 1.5em;
 }
+/*section 1 end*/
 
-main section:nth-of-type(2) {
+/*section 2 homepage*/
+.homepagemain section:nth-of-type(2) {
     display: flex;
     flex-direction: column;
     margin: 1em;
@@ -211,21 +211,21 @@ main section:nth-of-type(2) {
     margin: auto;
     margin-right: 1em;
     margin-left: 1em;
-    margin-top: 3em;
+    margin-top: 2em;
     border: solid lightgray 1px;
     box-shadow: -1px 0px 7px 0px #000000;
 }
 
-section:nth-of-type(2) h3 {
+.homepagemain section:nth-of-type(2) h3 {
     margin: 1.5em;
 }
 
-section:nth-of-type(2) p {
+.homepagemain section:nth-of-type(2) p {
     margin: 1.5em;
     margin-bottom: 4em;
 }
 
-section:nth-of-type(2) button {
+.homepagemain section:nth-of-type(2) button {
     background-color: red;
     color: white;
     border: red 1px ;
@@ -238,10 +238,17 @@ section:nth-of-type(2) button {
     border-radius: 5px;
     font-weight: bold;
     font-size: 0.9em;
-    font-family: sans-serif;
 }
+/*section 2 homepage*/
 
-main span:nth-of-type(1) section {
+/*section 3 homepage*/
+.homepagemain section:nth-of-type(3) h3 {
+    margin: 1em;
+}
+/*section 3*/
+
+/*span section 1 homepage*/
+.homepagemain span:nth-of-type(1) section {
     display: flex;
     flex-direction: column;
     margin: 1em;
@@ -250,7 +257,71 @@ main span:nth-of-type(1) section {
     box-shadow: -1px 0px 7px 0px #000000;
 }
 
-main span:nth-of-type(1) button {
+.homepagemain span section:nth-of-type(1) div {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 0;
+   margin-left: 1em;
+   margin-bottom: 0;
+}
+
+.homepagemain span section:nth-of-type(1) h4 {
+    font-size: 1.5em;
+    margin-left: .4em;
+}
+
+.homepagemain span section:nth-of-type(1) div ul {
+    padding-top: .5em;
+    margin-right: 1em;
+}
+
+.homepagemain span section:nth-of-type(1) div li {
+    list-style: none;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.homepagemain span section:nth-of-type(1) div li:first-of-type {
+    font-size: 1.2em;
+}
+
+.abonnement-list-items{
+    margin-right: 1em;
+}
+
+.homepagemain span section:nth-of-type(1) p {
+    font-weight: bold;
+    color: black;
+    margin-top: 0;
+    margin-left: 1.5em;
+}
+
+.homepagemain span section:nth-of-type(1) .abonnement-list-items strong {
+    color: black;
+}
+
+.homepagemain span section:nth-of-type(1) li {
+    color: rgb(95, 95, 95);
+    padding-bottom: 1em;
+    font-size: 1em;
+}
+
+
+.homepagemain span section:nth-of-type(1) li:nth-of-type(2) {
+    color: black;
+    font-weight: bold;
+}
+
+.homepagemain span section:nth-of-type(1) div li:nth-of-type(1) {
+    color: black;
+    font-weight: bold;
+}
+
+.homepagemain span section:nth-child(1) p:last-of-type {
+    margin-right: 1em;
+}
+
+.homepagemain span:nth-of-type(1) button {
     background-color: red;
     color: white;
     border: red 1px ;
@@ -266,32 +337,134 @@ main span:nth-of-type(1) button {
     font-family: sans-serif;
     justify-content: center;
 }
+/*span section 1 end*/
 
-section:nth-of-type(3) h3{
+/*span section 2 homepage*/
+.homepagemain span:nth-of-type(2) section {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    border-bottom: solid black 2px;
+    border-radius: 5px;
+    box-shadow: -1px 0px 7px 0px #000000;
+}
+
+.homepagemain span section:nth-of-type(2) div {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 0;
+   margin-left: 1em;
+   margin-bottom: 0;
+}
+
+.homepagemain span section:nth-of-type(2) h4 {
+    font-size: 1.5em;
+    margin-left: .4em;
+}
+
+.homepagemain span section:nth-of-type(2) div ul {
+    padding-top: 1em;
+    margin-right: 1em;
+}
+
+.homepagemain span section:nth-of-type(2) div li {
+    list-style: none;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.homepagemain span section:nth-of-type(2) div li:first-of-type {
+    font-size: 1.2em;
+}
+
+.abonnement-list-items{
+    margin-right: 1em;
+}
+
+.homepagemain span section:nth-of-type(2) h5 {
+    font-size: 1em;
+    color: black;
+    margin-top: 0;
+    margin-left: 1.5em;
+    margin-bottom: 0;
+    line-height: 1.8em;
+}
+
+.homepagemain span section:nth-of-type(2) p:first-of-type {
+    margin-top: 0;
+    line-height: 1.8em;
+}
+
+.homepagemain span section:nth-of-type(2) .abonnement-list-items strong {
+    color: black;
+}
+
+.homepagemain span section:nth-of-type(2) li {
+    color: rgb(95, 95, 95);
+    padding-bottom: 1em;
+    font-size: 1em;
+}
+
+
+.homepagemain span section:nth-of-type(2) li:nth-of-type(2) {
+    color: black;
+    font-weight: bold;
+}
+
+.homepagemain span section:nth-of-type(2) div li:nth-of-type(1) {
+    color: black;
+    font-weight: bold;
+}
+
+.homepagemain span section:nth-child(2) p:last-of-type {
+    margin-right: 1em;
+}
+
+.homepagemain span:nth-of-type(2) button {
+    background-color: red;
+    color: white;
+    border: red 1px ;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5em;
+    margin-right: 1.9em;
+    margin-left: 9em;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    justify-content: center;
+}
+/*span section 2 end*/
+
+/*section 4 homepage*/
+.homepagemain section:nth-of-type(4) h3{
     font-family: sans-serif;
     margin: 0.7em;
     font-weight: bold;
     font-size: 1.5em;
 }
 
-section:nth-of-type(3) p {
+.homepagemain section:nth-of-type(4) p {
     margin-top: 0;
-    font-family: sans-serif;
     margin-left: 1em;
     margin-right: 1em;
+    color: #6C6C71;;
 }
 
-section:nth-of-type(3) h4 {
+.homepagemain section:nth-of-type(4) h4 {
     margin-bottom: 0.5em;
     margin-left: 1em;
     margin-right: 1em;
 }
 
-section:nth-of-type(3) a {
+.homepagemain section:nth-of-type(4) a {
     color: black;
 }
+/*section 4 end*/
 
-section img {
+.homepagemain section img {
     border-radius: 5px;
 }
 
@@ -308,7 +481,7 @@ section img {
     width: 315px;
 }
 
-section:nth-of-type(5) {
+.homepagemain section:nth-of-type(6) {
     margin: 1em;
     justify-content: flex-end;
     width: 100%;
@@ -328,21 +501,22 @@ section:nth-of-type(5) {
     color: red;
 }
 /*carousel end*/
-section:nth-of-type(6) h3 {
-    font-family: sans-serif;
+
+/*section 7 homepage*/
+.homepagemain section:nth-of-type(7) h3 {
     margin: 0.7em;
     font-weight: bold;
     font-size: 1.5em;
 }
 
-section:nth-of-type(6) p {
+.homepagemain section:nth-of-type(7) p {
     margin-top: 0;
     font-family: sans-serif;
     margin-left: 1em;
     margin-right: 1em;
 }
 
-section:nth-of-type(6) button {
+.homepagemain section:nth-of-type(7) button {
     background-color: red;
     color: white;
     border: red 1px ;
@@ -350,30 +524,53 @@ section:nth-of-type(6) button {
     border-radius: 5px;
     font-weight: bold;
     font-size: 0.9em;
-    font-family: sans-serif;
     justify-content: center;
     margin-left: 1em;
     margin-bottom: 2em;
 }
+/*section 7 end*/
 
-section:nth-of-type(7) {
+/*section 8 homepage*/
+.homepagemain .app {
+    position: absolute;
+    width: 300px;
+    height: 220px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: -2em
+}
+
+.homepagemain section:nth-of-type(8) div {
+    display: flex;
+    justify-content: center;
+}
+
+.homepagemain section:nth-of-type(8) a {
+    width: 120px;
+    height: 40px;
+}
+
+.homepagemain section:nth-of-type(8) {
+    position: relative;
     display: flex;
     background-color: black;
     justify-content: center;
     flex-direction: column;
+    border-top: red 10px solid;
+    margin-top: 13em;
 }
 
-section:nth-of-type(7) h3 {
+.homepagemain section:nth-of-type(8) h3 {
     color: white;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
     font-size: 2em;
+    margin-top: 4em;
 }
 
-section:nth-of-type(7) p {
+.homepagemain section:nth-of-type(8) p {
     color: white;
-    font-family: sans-serif;
     display: flex;
     justify-content: center;
     margin-right: 4em;
@@ -382,7 +579,7 @@ section:nth-of-type(7) p {
 }
 
 
-section:nth-of-type(7) button {
+.homepagemain section:nth-of-type(8) button {
     background-color: red;
     color: white;
     border: red 1px ;
@@ -390,13 +587,21 @@ section:nth-of-type(7) button {
     border-radius: 5px;
     font-weight: bold;
     font-size: 0.9em;
-    font-family: sans-serif;
     justify-content: center;
     margin: auto;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
+}
+/*section 7 end*/
+
+/*footer*/
+footer {
+    border-top: 2px solid red;
+    margin-top: 3em;
+    background-color: #F0EBEB;
 }
 
 footer span {
+    margin-top: 2em;
     display: flex;
 }
 
@@ -414,10 +619,71 @@ footer section li {
 
 footer section a {
     text-decoration: none;
+    font-size: .8em;
+    font-weight: bold;
 }
 
 .linksvoorwaarden ul {
     display: flex;
+    flex-wrap: wrap;
+    gap: .75em;
+}
+
+.linksvoorwaarden a {
+    color: #6C6C71;
+}
+
+footer section:nth-of-type(3) {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+    font-size: .8em;
+    font-weight: bold;
+    color: #6C6C71;
+    padding-bottom: 2em;
+}
+/*footer end*/
+
+/*groepslessen section 1*/
+.groepslessenmain section:nth-of-type(1) {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    background-image: url(../images/New_Project__3_.png);
+    background-repeat: no-repeat;
+    background-size: 500px 320px;
+}
+
+.groepslessenmain section:nth-of-type(1) h2 {
+    margin-top: 10em;
+    color: white;
+    margin-left: 1em;
+    font-size: 1em;
+    margin-bottom: .5;
+}
+
+.groepslessenmain section:nth-of-type(1) h3 {
+    margin-top: 0;
+    color: white;
+    margin-left: .5em;
+    font-size: 2em;
+}
+
+.groepslessenmain section:nth-of-type(2) h4{
+    margin-top: 0;
+}
+
+.groepslessenmain h4 {
+    font-size: 1.5em;
+    margin-left: .5em;
+}
+
+.groepslessenmain p {
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 2em;
+    color: rgb(95, 95, 95);
+}
+
+.groepslessenmain strong {
     color: black;
-    gap: 1em;
 }
