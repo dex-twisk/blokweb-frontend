@@ -33,18 +33,18 @@ surface plane
 ## Je website
 
 <details open>
-<summary>Ik zou de tesla website willen namaken maar dan anders</summary>
+<summary>Ik ga de Fit For Free website namaken</summary>
 
 ### Je opdracht:
-https://shop.tesla.com/
+https://www.fitforfree.nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepagina
-<img src="images/teslahomepagina.png" width="" alt="homepagina">
+<img src="" width="" alt="">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Detailpagina
-<img src="images/tesladetailspagina.png" width="" alt="detailpagina">
+Groepslessenpagina
+<img src="" width="" alt="">
  
 </details>
 
@@ -58,13 +58,15 @@ Detailpagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets-homepage(1).png" width="" alt="breakdown van de homepagina">
+<img src="images/breakdownschets-homepage(2)_Tekengebied 1-02.png" width="" alt="breakdown van de homepagina">
+<img src="images/breakdownschets-fit.for.free_Tekengebied 1-03.png" width="" alt="breakdown van de homepagina">
 
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+### dynamisch deel (menu): 
+<img src="images/dynamisch.deel.1" width="" alt="breakdown van een dynamisch deel">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+### wellicht nog een dynamisch deel (carousol slider): 
+<img src="dynamisch.deel.2" width="" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -75,10 +77,10 @@ Detailpagina
 ## Voortgang 1 (week 2)
 
 <details>
-<summary>uitwerken voor 1e voortgang</summary>
+<summary>Voor deze week heb ik alle html code voor de website erin gezet</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+De html code voor de website ging goed, maar ik wist alleen niet goed waar ik de images moest plaatsen.
 
 
 ### Agenda voor meeting
@@ -94,10 +96,7 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+De html code voor de website ziet er goed en netjes uit.
 
 </details>
 
@@ -108,10 +107,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
+<summary>Deze week ben ik bezig geweest met de styling van de website</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik had moeite met de eerste section waarbij er bepaalde elementen boven een image moesten.
+De styling voor de rest van de website ging goed.
 
 
 ### Agenda voor meeting
@@ -125,12 +125,8 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+De styling moet verandert worden en de html code. Ik moet minder classes gebruiken en gaan werken meet nth-of-type.
 
 </details>
 
@@ -178,10 +174,11 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 ## Voortgang 3 (week 4)
 
 <details>
-<summary>uitwerken voor 3e voortgang</summary>
+<summary>Deze week heb ik gewerkt aan javascript elementen in de website en een toegankelijkheidstest afgenomen.</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik had erg veel moeite met het hamburger menu en de carousel sliders.
+Uiteindelijk is het me gelukt om de hamburger menu en een carousel slider werkend te maken.
 
 
 ### Agenda voor meeting
