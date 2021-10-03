@@ -162,13 +162,9 @@ nav ul a:hover {
 /*section 1 homepage*/
 .welkom {
     padding: 10vh 0;
-    background-image: url(../images/Homepage_header_Yoga__1_.png);
+    background-image: url(../images/Homepage_header_Circuit3.webp);
     background-repeat: no-repeat;
     background-size: 500px 320px;
-}
-
-.homepagemain section:nth-of-type(1) div {
-    margin: 1em;
 }
 
 .homepagemain section:nth-of-type(1) h2 {
@@ -178,7 +174,6 @@ nav ul a:hover {
 }
 
 .homepagemain section:nth-of-type(1) button {
-    height: 4em;
     border-radius: 5px;
     border: none;
     background-color: turquoise;
@@ -194,17 +189,40 @@ input[type="search"] {
 }
 
 @media (max-width: 750px) {
-    
-} 
+    .homepagemain section:nth-of-type(1) button {
+        height: 4em;
+    }
+}
 
 @media (min-width: 750px) and (max-width: 1652px) {
     .welkom {
         padding: 10vh 0;
         background-image: url(../images/Homepage_header_Circuit3.webp);
         background-repeat: no-repeat;
+        background-position: center;
         background-size: 1450px 800px;
-        padding-top: 15em;
-        padding-bottom: 15em;
+        padding-top: 12em;
+        padding-bottom: 12em;;
+    }
+
+    .homepagemain section:nth-of-type(1) h2 {
+        font-size: 3em;
+        margin-left: 5em;
+    }
+
+    .homepagemain section:nth-of-type(1) div {
+        margin-left: 15em;
+        width: 35em;
+        height: 5em;
+    }
+
+    .homepagemain section:nth-of-type(1) button {
+        height: 5em;
+        width: 5em;
+    }
+
+    .homepagemain section:nth-of-type(1) a {
+        margin-left: 9em;
     }
 }
 
@@ -214,10 +232,31 @@ input[type="search"] {
         background-image: url(../images/Homepage_header_Circuit3.webp);
         background-repeat: no-repeat;
         background-size: 1450px 800px;
-        padding-top: 15em;
-        padding-bottom: 15em;
+        background-position: center;
+        padding-top: 12em;
+        padding-bottom: 12em;
         border-left: solid lightgray 240px;
         border-right: solid lightgray 240px;
+    }
+
+    .homepagemain section:nth-of-type(1) h2 {
+        font-size: 3em;
+        margin-left: 5em;
+    }
+
+    .homepagemain section:nth-of-type(1) div {
+        margin-left: 15em;
+        width: 35em;
+        height: 5em;
+    }
+
+    .homepagemain section:nth-of-type(1) button {
+        height: 5em;
+        width: 5em;
+    }
+
+    .homepagemain section:nth-of-type(1) a {
+        margin-left: 9em;
     }
     
 }
@@ -732,20 +771,20 @@ input[type="search"] {
 }
 
 @media (max-width: 750px) {
-    section:nth-of-type(4) {
+    .homepagemain section:nth-of-type(4) {
         margin: 1em;
     }
 } 
 
 @media (min-width: 750px) and (max-width: 1540px) {
-    section:nth-of-type(4) {
+    .homepagemain section:nth-of-type(4) {
         margin-right: 30%;
         margin-left: calc(25% - 15vw);
     }
 }
 
 @media (min-width: 1540px) {
-    section:nth-of-type(4) {
+    .homepagemain section:nth-of-type(4) {
         margin-left: 20%;
         margin-right: 30%;
     }
@@ -790,40 +829,40 @@ input[type="search"] {
 }
 
 @media (max-width: 750px) {
-    section:nth-of-type(5) {
+    .homepagemain section:nth-of-type(5) {
         margin: 1em;
     }
 } 
 
 @media (min-width: 750px) and (max-width: 1540px) {
-    section:nth-of-type(5) {
+    .homepagemain section:nth-of-type(5) {
         margin-right: 30%;
         margin-left: calc(25% - 15vw);
     }
 }
 
 @media (min-width: 1540px) {
-    section:nth-of-type(5) {
+    .homepagemain section:nth-of-type(5) {
         margin-left: 20%;
         margin-right: 30%;
     }
 }
 
 @media (max-width: 750px) {
-    section:nth-of-type(6) {
+    .homepagemain section:nth-of-type(6) {
         margin: 1em;
     }
 } 
 
 @media (min-width: 750px) and (max-width: 1540px) {
-    section:nth-of-type(6) {
+    .homepagemain section:nth-of-type(6) {
         margin-right: 30%;
         margin-left: calc(25% - 15vw);
     }
 }
 
 @media (min-width: 1540px) {
-    section:nth-of-type(6) {
+    .homepagemain section:nth-of-type(6) {
         padding-left: 20%;
         padding-right: 30%;
     }
@@ -858,20 +897,20 @@ input[type="search"] {
 }
 
 @media (max-width: 750px) {
-    section:nth-of-type(7) {
+    .homepagemain section:nth-of-type(7) {
         margin: 1em;
     }
 } 
 
 @media (min-width: 750px) and (max-width: 1540px) {
-    section:nth-of-type(7) {
+    .homepagemain section:nth-of-type(7) {
         margin-right: 30%;
         margin-left: calc(25% - 15vw);
     }
 }
 
 @media (min-width: 1540px) {
-    section:nth-of-type(7) {
+    .homepagemain section:nth-of-type(7) {
         margin-left: 20%;
         margin-right: 30%;
     }
@@ -928,24 +967,24 @@ input[type="search"] {
 }
 
 @media (max-width: 750px) {
-    section:nth-of-type(8) h3 {
+    .homepagemain section:nth-of-type(8) h3 {
         display: flex;
         justify-content: center;
     }
 
-    section:nth-of-type(8) div {
+    .homepagemain section:nth-of-type(8) div {
         display: flex;
         justify-content: center;
     }
 
-    section:nth-of-type(8) p {
+    .homepagemain section:nth-of-type(8) p {
         display: flex;
         justify-content: center;
         margin-right: 4em;
         margin-left: 4em;
     }
 
-    section:nth-of-type(8) button {
+    .homepagemain section:nth-of-type(8) button {
         display: flex;
         justify-content: center;
         margin-bottom: 3em;
@@ -955,22 +994,22 @@ input[type="search"] {
 } 
 
 @media (min-width: 750px) and (max-width: 1540px) {
-    section:nth-of-type(8) h3 {
+    .homepagemain section:nth-of-type(8) h3 {
         margin-left: 20%;
         margin-right: 20%;   
     }
 
-    section:nth-of-type(8) div {
+    .homepagemain section:nth-of-type(8) div {
         margin-left: 20%;
         margin-right: 20%;   
     }
 
-    section:nth-of-type(8) p {
+    .homepagemain section:nth-of-type(8) p {
         margin-left: 20%;
         margin-right: 48%;  
     }
 
-    section:nth-of-type(8) button {
+    .homepagemain section:nth-of-type(8) button {
         margin-left: 20%;
         margin-right: 70%;
         justify-content: flex-start;
@@ -988,25 +1027,25 @@ input[type="search"] {
 }
 
 @media (min-width: 1540px) {
-    section:nth-of-type(8) h3 {
+    .homepagemain section:nth-of-type(8) h3 {
         margin-left: 20%;
         margin-right: 20%;
         justify-content: flex-start;
     }
 
-    section:nth-of-type(8) div {
+    .homepagemain section:nth-of-type(8) div {
         margin-left: 20%;
         margin-right: 20%;
         justify-content: flex-start;
     }
 
-    section:nth-of-type(8) p {
+    .homepagemain section:nth-of-type(8) p {
         margin-left: 20%;
         margin-right: 48%;
         justify-content: flex-start;
     }
 
-    section:nth-of-type(8) button {
+    .homepagemain section:nth-of-type(8) button {
         margin-left: 20%;
         margin-right: 70%;
         justify-content: flex-start;
@@ -1101,44 +1140,196 @@ footer section:nth-of-type(3) {
 
 /*groepslessen section 1*/
 .groepslessenmain section:nth-of-type(1) {
-    padding-top: 6vh;
-    padding-bottom: 6vh;
+    padding: 10vh 0;
     background-image: url(../images/New_Project__3_.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 500px 320px;
 }
 
 .groepslessenmain section:nth-of-type(1) h2 {
-    margin-top: 10em;
+    margin: .6em;
+    font-size: 2em;
     color: white;
-    margin-left: 1em;
-    font-size: 1em;
-    margin-bottom: .5;
 }
 
 .groepslessenmain section:nth-of-type(1) h3 {
-    margin-top: 0;
-    color: white;
-    margin-left: .5em;
+    margin: .6em;
     font-size: 2em;
+    color: white;
 }
 
-.groepslessenmain section:nth-of-type(2) h4{
-    margin-top: 0;
+@media (min-width: 1652px) {
+    .groepslessenmain section:nth-of-type(1) {
+        padding: 10vh 0;
+        background-image: url(../images/New_Project__3_.png);
+        background-repeat: no-repeat;
+        background-size: 1450px 900px;
+        background-position: center;
+        padding-top: 12em;
+        padding-bottom: 12em;
+        border-left: solid lightgray 240px;
+        border-right: solid lightgray 240px;
+    }
+
+    .groepslessenmain section:nth-of-type(1) h2 {
+        font-size: 1.5em;
+        color: white;
+        margin-left: 10em;
+        margin-bottom: 0;
+    }
+
+    .groepslessenmain section:nth-of-type(1) h3 {
+        font-size: 3em;
+        color: white;
+        margin-left: 5em;
+        margin-top: 0;
+    }
 }
 
-.groepslessenmain h4 {
-    font-size: 1.5em;
-    margin-left: .5em;
-}
+@media (min-width: 750px) and (max-width: 1652px) {
+    .groepslessenmain section:nth-of-type(1) {
+        padding: 10vh 0;
+        background-image: url(../images/New_Project__3_.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1450px 900px;
+        padding-top: 12em;
+        padding-bottom: 12em;;
+    }
 
-.groepslessenmain p {
+    .groepslessenmain section:nth-of-type(1) h2 {
+        font-size: 1.5em;
+        color: white;
+        margin-left: 10em;
+        margin-bottom: 0;
+    }
+
+    .groepslessenmain section:nth-of-type(1) h3 {
+        font-size: 3em;
+        color: white;
+        margin-left: 5em;
+        margin-top: 0;
+    }
+}
+/*groepslessen section 1 end*/
+
+.groepslessenmain .lid-worden-button {
+    background-color: red;
+    color: white;
+    border: red 1px ;
+    padding: 1.5em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    justify-content: center;
     margin-left: 1em;
-    margin-right: 1em;
-    line-height: 2em;
+    margin-bottom: 2em;
+}
+
+.groepslessenmain section p {
+    line-height: 1.75em;
     color: rgb(95, 95, 95);
 }
 
 .groepslessenmain strong {
     color: black;
+}
+
+.groepslessenmain h4 {
+    font-size: 1.5em;
+}
+
+@media (min-width: 1652px) {
+    .groepslessenmain section p {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .groepslessenmain section h4 {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    
+    .groepslessenmain section div {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .groepslessenmain section:nth-of-type(5) {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .groepslessenmain section:nth-of-type(8) {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .groepslessenmain section:nth-of-type(11) {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .groepslessenmain section:nth-of-type(14) {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .groepslessenmain .lid-worden-button {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 1652px) {
+    .groepslessenmain section p {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .groepslessenmain section h4 {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .groepslessenmain section div {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .groepslessenmain section:nth-of-type(5) {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .groepslessenmain section:nth-of-type(8) {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .groepslessenmain section:nth-of-type(11) {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .groepslessenmain section:nth-of-type(14) {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .groepslessenmain .lid-worden-button {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media (max-width: 750px) {
+    .groepslessenmain section p {
+        margin: 1em;
+    }
+
+    .groepslessenmain section h4 {
+        margin: .6em;
+    }
 }
