@@ -139,31 +139,34 @@ De styling moet verandert worden en de html code. Ik moet minder classes gebruik
 <details>
 <summary>uitwerken na test in 8e voortgang</summary>
 
-### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
+Slechtziend bril:
+Bij de slechtziend bril is de link “Gebruik mijn locatie” niet te zien. De link heeft een te kleine font-size.
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+Op de search button is het contrast slecht en niet te zien.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+De knoppen voor de carrousel slider zouden wel een fellere kleur kunnen hebben omdat het lichtgrijs op wit is wat een laag contrast geeft.
 
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+De tekst over de gehele website is vrij klein waardoor het moeilijk te zien is vooral met de slechtziend bril.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Kleurenblind:
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Bij de kleurenblind bril is alles goed te zien. Het contrast word zelfs verhoog. De knoppen voor de carrousel slider zouden wel een fellere kleur kunnen hebben omdat het lichtgrijs op wit is wat een laag contrast geeft.
 
+Voice over:
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+De hamburger menu en Fit For Free Logo is niet naar toe te tabben en dus ik niet te vinden voor iemand die de Voice over gebruikt. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+De carousel knoppen worden aangegeven als groter dan en kleiner dan knoppen.
+
+Op de Fit For Free website zijn de abonnementen sectie geheel een link.	
+
+Gehandicapt hand :
+De website is nog steeds goed te gebruiken. Het scrollen word moeilijk maar is te doen.
+
+Mensen met parkinson: 
+
+De navigatie links zijn te dicht bij elkaar waardoor het moeilijk word voor mensen met parkinson om op de navigatie links te klikken. De navigatie links zijn ook vrij klein dit maakt het nog extra moeilijk.
 
 </details>
 
