@@ -13,7 +13,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details open>
-<summary>Ik heb geen moeite met html en css, maar nog wel met javascript</summary>
+<summary>Ben nog een beginnende coder. Ik begrijp html goed en css voor het grootste gedeelte, maar heb nog wel moeite met javascript</summary>
 
 ### Auteur:
 Dex Twisk
@@ -40,11 +40,11 @@ https://www.fitforfree.nl
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepagina
-<img src="" width="" alt="">
+<img src="images/homepagina.png" width="" alt="">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Groepslessenpagina
-<img src="" width="" alt="">
+<img src="images/groepslessen.png" width="" alt="">
  
 </details>
 
@@ -211,14 +211,16 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Eindgesprek (week 5)
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
+<summary>Ik heb afwerkingen gemaakt en de website responsive gemaakt</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik had moeite met het responsive maken van de website en dan vooral de span met de twee section erin. 
+<img src="images/responive1.png" width="" alt="problemen">
+<img src="images/responive3.png" width="" alt="problemen">
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+
 
 </details>
 
@@ -233,8 +235,8 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.youtube.com/watch?v=At4B7A4GOPg
+2. https://www.youtube.com/watch?v=5MeogG-ZFs8
+3. https://www.youtube.com/watch?v=KcdBOoK3Pfw&t=1217s
 
 </details>
