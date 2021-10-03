@@ -63,10 +63,10 @@ Groepslessenpagina
 <img src="images/breakdownschets-fit.for.free_Tekengebied 1-03.png" width="" alt="breakdown van de homepagina">
 
 ### dynamisch deel (menu): 
-<img src="images/dynamisch.deel.1" width="" alt="breakdown van een dynamisch deel">
+<img src="images/dynamisch.deel.1.png" width="" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (carousol slider): 
-<img src="dynamisch.deel.2" width="" alt="breakdown van nog een dynamisch deel">
+<img src="images/dynamisch.deel.2.png" width="" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
