@@ -206,7 +206,7 @@ Daarnaast heb ik sommige styling veranders zoals kleur, schaduw en positionering
 
 #### Screenshot van vorige versie (browser screen): 
 Homepagina
-<img src="images/versie 1-homepagina.png" width="" alt="homepagina">
+<img src="images/versie1-homepagina.png" width="" alt="homepagina">
 
 #### Screenshot van vorige versie (browser screen): 
 Abonnementenpagina
