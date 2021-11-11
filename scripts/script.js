@@ -9,7 +9,13 @@ const prevBtn = document.querySelector('.prevBtn');
 const nextBtn = document.querySelector('.nextBtn');
 
 let counter = 0;
+
+//De eigenschap clientWidth retourneert de zichtbare breedte van een element in pixels, 
+//inclusief opvulling, maar niet de rand, schuifbalk of marge
+
 const size = carouselImages[0].clientWidth;
+
+//translateX vershuift de canvas horizontaal
 
 caroulselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
