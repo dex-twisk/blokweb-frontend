@@ -123,7 +123,7 @@ De styling voor de rest van de website ging goed.
 
 ### Verslag van meeting
 
-De styling moet verandert worden en de html code. Ik moet minder classes gebruiken en gaan werken meet nth-of-type.
+De styling moet verandert worden en de html code. Ik moet minder classes gebruiken en gaan werken met nth-of-type.
 
 </details>
 
@@ -188,8 +188,8 @@ Uiteindelijk is het me gelukt om de hamburger menu en een carousel slider werken
 Ik had moeite met het responsive maken van de website en dan vooral section 4 met de twee divs. 
 
 ### Screenshot(s)
-<img src="images/section4.png" width="" alt="codesection4">
-<img src="images/abonnementen.png" width="" alt="abonnementen">
+<img src="images/section4.png" width="" alt="">
+<img src="images/abonnementen.png" width="" alt="">
 <p> Zoals je in screenshot kan zien zijn de image nog niet op gelijke hoogte en zijn de button niet een gelijke grote.</p>
 
 </details>
