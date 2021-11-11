@@ -1,4 +1,6 @@
-console.log('test');
+//carousel slider
+
+//javascript code van carousel slider gebruikt van Dev Ed: https://www.youtube.com/watch?v=At4B7A4GOPg
 
 const caroulselSlide = document.querySelector('.carousel-slide')
 const carouselImages = document.querySelectorAll('.carousel-slide img')
@@ -26,6 +28,8 @@ prevBtn.addEventListener('click', () => {
 })
 
 //hamburger menu
+
+//javacript code van hamburger menu gebruikt van Web Dev Simplified: https://www.youtube.com/watch?v=At4B7A4GOPg
 
 const toggleButton = document.querySelector('.container');
 const navbarlinks = document.querySelector('.nav-links');
