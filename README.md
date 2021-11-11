@@ -119,7 +119,7 @@ Ik had moeite met de eerste section waarbij er bepaalde elementen boven op een i
 De styling voor de rest van de website ging goed.
 
 #### stukje css code van eerste section:
-<img src="images/section1-csscode-1" width="" alt="">
+<img src="images/section1-csscode-1.png" width="" alt="">
 
 ### Verslag van meeting
 
@@ -185,12 +185,12 @@ Uiteindelijk is het me gelukt om de hamburger menu en een carousel slider werken
 <summary>Ik heb afwerkingen gemaakt en de website responsive gemaakt</summary>
 
 ### Stand van zaken
-Ik had moeite met het responsive maken van de website en dan vooral de span met de twee section erin. 
+Ik had moeite met het responsive maken van de website en dan vooral section 4 met de twee divs. 
 
 ### Screenshot(s)
-<img src="images/responive1.png" width="" alt="problemen">
-<img src="images/responive3.png" width="" alt="problemen">
-
+<img src="images/section4.png" width="" alt="codesection4">
+<img src="images/abonnementen.png" width="" alt="abonnementen">
+<p> Zoals je in screenshot kan zien zijn de image nog niet op gelijke hoogte en zijn de button niet een gelijke grote.</p>
 
 </details>
 
@@ -205,15 +205,15 @@ Daarnaast heb ik sommige styling veranders zoals kleur, schaduw en positionering
 
 #### Screenshot van vorige versie (browser screen): 
 Homepagina
-<img src="images/versie 1-homepagina.png" width="" alt="problemen">
+<img src="images/versie 1-homepagina.png" width="" alt="homepagina">
 
 #### Screenshot van vorige versie (browser screen): 
 Abonnementenpagina
-<img src="images/versie 1-abonnementen.png" width="" alt="problemen">
+<img src="images/versie 1-abonnementen.png" width="" alt="abonnementenpagina">
 
 #### Screenshot van nieuwe versie (browser screen): 
 Homepagina
-<img src="images/versie 2-homepagina.png" width="" alt="problemen">
+<img src="images/versie 2-homepagina.png" width="" alt="homepagina2">
 <p>Ik heb de kleuren veranderd doormiddel van de kleuren vast te stellen die in de website werden gebruikt.
 Dit heb ik gedaan doormiddel van Adobe Color te gebruiken.</p>
 <p> De buttons  heb ik een vaste width gegeven waardoor de buttons op elke responsive size even groot zijn. In de vorige versie had
@@ -221,7 +221,7 @@ ik hier problemen mee.</p>
 
 #### Screenshot van vorige versie (browser screen): 
 Abonnementenpagina
-<img src="images/versie 2-abonnementen.png" width="" alt="problemen">
+<img src="images/versie 2-abonnementen.png" width="" alt="abonnementenpagina2">
 
 </details>
 
